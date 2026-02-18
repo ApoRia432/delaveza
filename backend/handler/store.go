@@ -24,7 +24,7 @@ func GetStorefront(c echo.Context) error {
 	}
 
 	req.Header.Set("X-Riot-ClientPlatform", "ew0KCSJwbGF0Zm9ybVR5cGUiOiAiUEMiLA0KCSJwbGF0Zm9ybU9TIjogIldpbmRvd3MiLA0KCSJwbGF0Zm9ybU9TVmVyc2lvbiI6ICIxMC4wLjE5MDQyLjEuMjU2LjY0Yml0IiwNCgkicGxhdGZvcm1DaGlwc2V0IjogIlVua25vd24iDQp9")
-	req.Header.Set("X-Riot-ClientVersion", "release-10.08-shipping-6-3422747")
+	req.Header.Set("X-Riot-ClientVersion", "release-12.02-shipping-9-4226954")
 	// 元のリクエストのヘッダーをコピー（必要に応じて調整）
 	req.Header.Set("X-Riot-Entitlements-JWT", c.Request().Header.Get("X-Riot-Entitlements-JWT"))
 	req.Header.Set("Authorization", c.Request().Header.Get("Authorization"))
